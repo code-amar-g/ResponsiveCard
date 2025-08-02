@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mainbox {
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.box {
+    width: 230px;
+    height: 210px;
+    background-color: rgba(67, 67, 67, 0.628);
+    border-radius: 30px 10px 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+    box-shadow: 0 0 5px white;
+}
+.box1 {
+    border-radius: 10px 30px 10px 10px;
+}
+.box2 {
+    border-radius: 30px 30px 10px 10px ;
+}
+
+.box .img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border: 2px solid white;
+}
+.box .img1 {
+    background-image: url(sir.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.box .img2 {
+    background-image: url(amar2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.box .img3 {
+    background-image: url(killer.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.box h4 {
+    color: white;
+}
+.box p {
+    margin-bottom: 10px;
+    color: lightgray;
+    font-size: 12px;
+    font-weight: 300;
+}
+.box button {
+    padding: 5px 20px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    
+}
+.box button:hover{
+    background-color: lightgray;
+    transition: 0.2s;
+
+}
